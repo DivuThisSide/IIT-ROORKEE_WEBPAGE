@@ -1,0 +1,253 @@
+@media (max-width: 480px) {
+    .top-nav {
+        border-bottom: 0px;
+    }
+
+    .facts {
+        grid-template-rows: repeat(2, 1fr);
+
+        .grid:nth-child(1),
+        .grid:nth-child(2) {
+            grid-row: 1/2;
+        }
+
+        .grid:nth-child(3),
+        .grid:nth-child(4) {
+            grid-row: 2/3;
+        }
+
+        .odd {
+            background-color: #F8B300;
+        }
+    }
+
+    .border-seperator {
+        border-right: 0;
+        border-bottom: 1px solid #C4C4C4;
+    }
+
+    .recent-achievements {
+        background-color: #F8B300;
+    }
+
+    .noticeboard {
+        border-radius: 4px;
+        background-color: #FACB5559;
+    }
+
+    .second-last-section {
+        ul {
+            background-color: #121212;
+            width: 100%;
+        }
+
+        p {
+            background-color: #1A1A1A;
+            width: 100%;
+        }
+
+    }
+
+    .years-section {
+        .active {
+            padding: 0.5rem;
+
+            p {
+                color: #fff !important;
+            }
+
+            background-color: #232323;
+            border-radius: 0.5rem;
+        }
+    }
+
+    .events-gallery-section-container {
+        background-color: #232323;
+    }
+
+    .section {
+        padding: 1rem !important;
+    }
+
+    .small-hidden {
+        display: none;
+    }
+
+    .md-hidden {
+        display: block;
+    }
+
+    html {
+        font-size: 14px;
+    }
+
+    .small-justify-between {
+        justify-content: space-between;
+    }
+
+    .small-justify-end {
+        justify-content: end;
+    }
+
+    .small-grid-cols-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .small-grid-cols-1 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .small-flex {
+        display: flex;
+    }
+
+    .small-flex-column {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .top-nav {
+        border-bottom: 0px;
+    }
+
+    .facts {
+        grid-template-rows: repeat(2, 1fr);
+
+        .grid:nth-child(1),
+        .grid:nth-child(2) {
+            grid-row: 1/2;
+        }
+
+        .grid:nth-child(3),
+        .grid:nth-child(4) {
+            grid-row: 2/3;
+        }
+
+        .odd {
+            background-color: #F8B300;
+        }
+    }
+
+    .border-seperator:nth-child(2) {
+        border-right: 0;
+    }
+
+    .recent-achievements {
+        background-color: #F8B300;
+    }
+
+    .noticeboard {
+        border-radius: 4px;
+        background-color: #FACB5559;
+    }
+
+    .active {
+        padding: 0.7rem;
+
+        p {
+            color: #fff !important;
+        }
+
+        background-color: #232323;
+        border-radius: 0.5rem;
+    }
+
+    .events-gallery-section-container {
+        background-color: #232323;
+    }
+
+    .section {
+        padding: 2rem !important;
+    }
+
+    .small-hidden {
+        display: none;
+    }
+
+    .md-hidden {
+        display: block;
+    }
+
+    html {
+        font-size: 15px;
+    }
+
+    .small-justify-between {
+        justify-content: space-between;
+    }
+
+    .small-justify-end {
+        justify-content: end;
+    }
+
+    .md-grid-cols-2 {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    .small-grid-cols-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .small-grid-cols-1 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .small-flex {
+        display: flex;
+    }
+
+    .small-flex-column {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    html {
+        font-size: 16px;
+    }
+
+    .lg-hidden {
+        display: none;
+    }
+
+    .lg-grid-cols-2 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .odd {
+        background-color: #99BBD1;
+    }
+
+    .hero-main-content {
+        padding-left: 10rem;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    html {
+        font-size: 17px;
+    }
+
+    .odd {
+        background-color: #99BBD1;
+    }
+
+    .hero-main-content {
+        padding-left: 10rem;
+    }
+}
+
+@media (min-width: 1441px) {
+    html {
+        font-size: 18px;
+    }
+
+    .odd {
+        background-color: #99BBD1;
+    }
+
+    .hero-main-content {
+        padding-left: 10rem;
+    }
+}
